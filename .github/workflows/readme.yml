@@ -16,10 +16,6 @@ jobs:
     - uses: actions-rs/toolchain@v1
       with:
         toolchain: stable
-    - name: build
-      uses: actions-rs/cargo@v1
-      with:
-        command: build
     - uses: actions/cache@v2
       name: Configure caching
       with:
@@ -38,6 +34,7 @@ jobs:
         git diff
         git config --global user.email "actions@users.noreply.github.com"
         git config --global user.name "README-bot"
+        git remote set-url origin https://x-access-token:${{ secrets.PROFILE_UPDATE_TOKEN }}@github.com/travitch/travitch
         git add -A
         git commit -m "Updated content" || exit 0
         git push
