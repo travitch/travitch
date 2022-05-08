@@ -6,8 +6,8 @@ I am working on program analysis and verification at [Galois](https://galois.com
 
 Data structures that may be generally useful
 
-- [haggle](https://github.com/travitch/haggle): A library providing multiple efficient graph implementations for Haskell (Hackage)[https://hackage.haskell.org/package/haggle]
-- [persistent-vector](https://github.com/travitch/persistent-vector): An implementation of persistent (i.e., purely functional) vectors based on array-mapped tries, based on the Clojure vector data structure (Hackage)[https://hackage.haskell.org/package/persistent-vector]
+- [haggle](https://github.com/travitch/haggle): A library providing multiple efficient graph implementations for Haskell [Hackage](https://hackage.haskell.org/package/haggle)
+- [persistent-vector](https://github.com/travitch/persistent-vector): An implementation of persistent (i.e., purely functional) vectors based on array-mapped tries, based on the Clojure vector data structure [Hackage](https://hackage.haskell.org/package/persistent-vector)
 - [robbed](https://github.com/travitch/robbed): An implementation of Reduced Ordered Binary Decision Diagrams, which are canonical representations of boolean formulas that admit `O(1)` equivalence testing (but potentially exponential construction time)
 
 ## Program Analysis
