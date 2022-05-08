@@ -1,0 +1,43 @@
+# Adapted from https://github.com/simonw/simonw/blob/main/.github/workflows/build.yml
+name: Build README
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 23 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+     - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+      - name: build
+        uses: actions-rs/cargo@v1
+        with:
+          command: build
+    - uses: actions/cache@v2
+      name: Configure caching
+      with:
+        path: |
+          ~/.cargo
+          target
+        key: ${{ runner.os }}-rs-${{ hashFiles('**/Cargo.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-rs-
+    - name: Update README
+      run: |-
+        cargo build --release
+        ./target/release/travitch
+    - name: Commit and push if changed
+      run: |-
+        git diff
+        git config --global user.email "actions@users.noreply.github.com"
+        git config --global user.name "README-bot"
+        git add -A
+        git commit -m "Updated content" || exit 0
+        git push
