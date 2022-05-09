@@ -156,6 +156,17 @@ fn render_repo_object(obj_map: &Map<String, Json>) -> String {
     )
 }
 
+fn render_repo_object_hackage(obj_map: &Map<String, Json>, hackage_url: &str) -> String {
+    format!("[{}]({}) [{} :star: [:book:]({})]: {}",
+            context_string(&obj_map, "name"),
+            context_string(&obj_map, "url"),
+            context_number(&obj_map, "star_count"),
+            hackage_url,
+            context_string(&obj_map, "description")
+    )
+}
+
+
 /// Handle the "render_repo" directive in templates
 ///
 /// This emits HTML based on the data returned from github (stored in the
@@ -185,6 +196,35 @@ fn render_repo_helper(
     }
 }
 
+fn render_repo_hackage_helper(
+    h: &Helper,
+    _: &Handlebars,
+    ctx: &Context,
+    _: &mut RenderContext,
+    out: &mut dyn Output,
+) -> Result<(), RenderError> {
+    let name_param = h
+        .param(0)
+        .ok_or(RenderError::new("Param 0 is required for the `render_repo_hackage` helper."))?;
+    let hackage_url_param = h
+        .param(1)
+        .ok_or(RenderError::new("Param 1 is required for the `render_repo_hackage` helper."))?;
+    let hackage_url = hackage_url_param.value().as_str().expect("Expected parameter to `render_repo_hackage` to be a string");
+    let repo_name = name_param.value().as_str().expect("Expected parameter to `render_repo_hackage` to be a string");
+    let repo_map = ctx.data();
+    match repo_map.as_object().expect("Repository context object should be a `Map`").get(repo_name) {
+        None => {
+            Err(RenderError::new(format!("Expected repository for {}", repo_name)))
+        },
+        Some(obj) => {
+            let obj_map = obj.as_object().unwrap();
+            let rendered = render_repo_object_hackage(obj_map, hackage_url);
+            out.write(rendered.as_ref())?;
+            Ok(())
+        }
+    }
+}
+
 fn main() -> anyhow::Result<(), anyhow::Error> {
     let github_api_token = std::env::var("GITHUB_API_TOKEN").expect("Missing GITHUB_API_TOKEN env var");
     let raw_data = query_github(&github_api_token)?;
@@ -192,6 +232,7 @@ fn main() -> anyhow::Result<(), anyhow::Error> {
     let mut handlebars = Handlebars::new();
     // FIXME: Add a version of this helper that also accepts a hackage link
     handlebars.register_helper("render_repo", Box::new(render_repo_helper));
+    handlebars.register_helper("render_repo_hackage", Box::new(render_repo_hackage_helper));
     handlebars.register_template_file("README", "./data/template/README.hbs")?;
     let mut output_file = File::create("README.md")?;
     handlebars.render_to_write("README", &normalized_data, &mut output_file)?;
