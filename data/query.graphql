@@ -1,0 +1,66 @@
+query MyRepositoriesQuery {
+  repository(owner: "taffybar", name: "taffybar") {
+		id
+    createdAt
+    description
+    forkCount
+    stargazerCount
+    languages(first: 5) {
+      edges {
+        node {
+          name
+        }
+      }
+    }
+    name
+    updatedAt
+    url    
+  }
+  organization(login: "GaloisInc") {
+    repositories(isFork: false, privacy: PUBLIC, first: 100, orderBy: { field:UPDATED_AT, direction: DESC}) {
+      edges {
+        node {
+          id
+          createdAt
+          description
+          forkCount
+          stargazerCount
+          languages(first: 5) {
+            edges {
+              node {
+                name
+              }
+            }
+          }
+          name
+          updatedAt
+          url
+        }
+      }
+    }    
+  }
+	user(login: "travitch") {
+    name
+    repositories(isFork: false, first: 100) {
+      edges {
+        node {
+          id
+          createdAt
+          description
+          forkCount 
+          stargazerCount
+          languages(first: 5) {
+            edges {
+              node {
+                name
+              }
+            }
+          }
+          name
+          updatedAt
+          url
+        }
+      }
+    }
+	}
+}

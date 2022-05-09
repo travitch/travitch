@@ -26,6 +26,8 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-rs-
     - name: Update README
+      env:
+        GITHUB_API_TOKEN: ${{ secrets.PROFILE_GRAPHQL_TOKEN }}
       run: |-
         cargo build --release
         ./target/release/travitch
