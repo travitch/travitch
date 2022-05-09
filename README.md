@@ -48,7 +48,8 @@ Note that these are interesting and informative, but definitely not efficient en
 ## Others
 
 - [taffybar](https://github.com/taffybar/taffybar) [585 :star:]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison ([Hackage](https://hackage.haskell.org/package/taffybar))
-- [travitch](https://github.com/travitch/travitch) [0 :star:]: (No description), which generates this page
+- [travitch](https://github.com/travitch/travitch) [1 :star:]: (No description), which generates this page
+- [blog](https://github.com/travitch/blog) [3 :star:]: The code for my blog (nochair.net)
 
 ## Maintainer
 
