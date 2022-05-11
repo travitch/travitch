@@ -26,6 +26,7 @@ Data structures that may be generally useful
 - [macaw](https://github.com/GaloisInc/macaw) [162 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [3 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
 - [renovate](https://github.com/GaloisInc/renovate) [34 :star:]: A library for binary analysis and rewriting
+- [language-sleigh](https://github.com/travitch/language-sleigh) [0 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
 
 ## Debugging Tools
 
