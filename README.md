@@ -26,7 +26,7 @@ Data structures that may be generally useful
 - [macaw](https://github.com/GaloisInc/macaw) [162 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [3 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
 - [renovate](https://github.com/GaloisInc/renovate) [34 :star:]: A library for binary analysis and rewriting
-- [language-sleigh](https://github.com/travitch/language-sleigh) [0 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
+- [language-sleigh](https://github.com/travitch/language-sleigh) [3 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
 
 ## Debugging Tools
 
@@ -48,7 +48,7 @@ Note that these are interesting and informative, but definitely not efficient en
 
 ## Others
 
-- [taffybar](https://github.com/taffybar/taffybar) [585 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
+- [taffybar](https://github.com/taffybar/taffybar) [586 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
 - [travitch](https://github.com/travitch/travitch) [1 :star:]: The code for my Github profile page, which generates this page
 - [blog](https://github.com/travitch/blog) [3 :star:]: The code for my blog (ravit.ch)
 
