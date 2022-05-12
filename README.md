@@ -40,6 +40,7 @@ Note that these are interesting and informative, but definitely not efficient en
 - [satisfaction](https://github.com/travitch/satisfaction) [2 :star:]: A DPLL SAT solver written in Haskell
 - [datalog](https://github.com/travitch/datalog) [95 :star:]: A pure Haskell implementation of Datalog
 - [ifscs](https://github.com/travitch/ifscs) [4 :star: [:book:](https://hackage.haskell.org/package/ifscs)]: An inductive form set constraint solver in Haskell
+- [satir](https://github.com/travitch/satir) [0 :star:]: An implementation of a SAT solver in Rust
 
 ## Emacs Packages
 
