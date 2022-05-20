@@ -49,13 +49,7 @@ Note that these are interesting and informative, but definitely not efficient en
 
 ## Others
 
-- [taffybar](https://github.com/taffybar/taffybar) [585 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
+- [taffybar](https://github.com/taffybar/taffybar) [586 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
 - [travitch](https://github.com/travitch/travitch) [1 :star:]: The code for my Github profile page, which generates this page
 - [blog](https://github.com/travitch/blog) [3 :star:]: The code for my blog (ravit.ch)
 
-## Maintainer
-
-A collection of packages that I help maintain
-
-- [elf-edit](https://github.com/GaloisInc/elf-edit) [34 :star:]: The elf-edit library provides a datatype suitable for reading and writing Elf files.
-- [flexdis86](https://github.com/GaloisInc/flexdis86) [30 :star:]: A library for disassembling x86-64 binaries.
