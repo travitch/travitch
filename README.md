@@ -6,14 +6,14 @@ I am working on program analysis and verification at [Galois](https://galois.com
 
 Data structures that may be generally useful
 
-- [haggle](https://github.com/travitch/haggle) [30 :star: [:book:](https://hackage.haskell.org/package/haggle)]: An efficient graph library for Haskell
+- [haggle](https://github.com/travitch/haggle) [31 :star: [:book:](https://hackage.haskell.org/package/haggle)]: An efficient graph library for Haskell
 - [persistent-vector](https://github.com/travitch/persistent-vector) [18 :star: [:book:](https://hackage.haskell.org/package/persistent-vector)]: Persistent vectors for Haskell based on array mapped tries
 - [robbed](https://github.com/travitch/robbed) [3 :star:]: A pure Haskell implementation of Reduced Ordered Binary Decision Diagrams (BDDs)
 
 ## Program Analysis
 
 - [build-bom](https://github.com/travitch/build-bom) [26 :star:]: Dynamically discover the commands used to create a piece of software
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [484 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [485 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [10 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: (WIP) serialization/deserialization for What4 expressions
 
@@ -49,7 +49,7 @@ Note that these are interesting and informative, but definitely not efficient en
 
 ## Others
 
-- [taffybar](https://github.com/taffybar/taffybar) [591 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
+- [taffybar](https://github.com/taffybar/taffybar) [592 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
 - [travitch](https://github.com/travitch/travitch) [1 :star:]: The code for my Github profile page, which generates this page
 - [blog](https://github.com/travitch/blog) [3 :star:]: The code for my blog (ravit.ch)
 
