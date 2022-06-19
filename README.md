@@ -13,7 +13,7 @@ Data structures that may be generally useful
 ## Program Analysis
 
 - [build-bom](https://github.com/travitch/build-bom) [26 :star:]: Dynamically discover the commands used to create a piece of software
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [486 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [487 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [10 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: (WIP) serialization/deserialization for What4 expressions
 
@@ -22,7 +22,7 @@ Data structures that may be generally useful
 - [crepitans](https://github.com/travitch/crepitans) [2 :star:]: A tool for scriptable exploration of binaries
 - [dismantle](https://github.com/travitch/dismantle) [16 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
 - [portable-executable](https://github.com/GaloisInc/portable-executable) [2 :star:]: Tools for working with the Windows Portable Executable (PE) file format
-- [semmc](https://github.com/GaloisInc/semmc) [32 :star:]: Stratified synthesis for learning machine code instruction semantics
+- [semmc](https://github.com/GaloisInc/semmc) [33 :star:]: Stratified synthesis for learning machine code instruction semantics
 - [macaw](https://github.com/GaloisInc/macaw) [165 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [3 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
 - [renovate](https://github.com/GaloisInc/renovate) [34 :star:]: A library for binary analysis and rewriting
