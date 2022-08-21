@@ -13,7 +13,7 @@ Data structures that may be generally useful
 ## Program Analysis
 
 - [build-bom](https://github.com/travitch/build-bom) [26 :star:]: Dynamically discover the commands used to create a piece of software
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [500 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [501 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [10 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: (WIP) serialization/deserialization for What4 expressions
 
@@ -27,7 +27,7 @@ Data structures that may be generally useful
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [3 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
 - [renovate](https://github.com/GaloisInc/renovate) [35 :star:]: A library for binary analysis and rewriting
 - [language-sleigh](https://github.com/travitch/language-sleigh) [3 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
-- [mctrace](https://github.com/GaloisInc/mctrace) [0 :star:]: An implementation of DTrace for machine code
+- [mctrace](https://github.com/GaloisInc/mctrace) [1 :star:]: An implementation of DTrace for machine code
 
 ## Debugging Tools
 
