@@ -21,7 +21,7 @@ Data structures that may be generally useful
 
 - [crepitans](https://github.com/travitch/crepitans) [2 :star:]: A tool for scriptable exploration of binaries
 - [dismantle](https://github.com/travitch/dismantle) [17 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
-- [portable-executable](https://github.com/GaloisInc/portable-executable) [2 :star:]: Tools for working with the Windows Portable Executable (PE) file format
+- [portable-executable](https://github.com/GaloisInc/portable-executable) [3 :star:]: Tools for working with the Windows Portable Executable (PE) file format
 - [semmc](https://github.com/GaloisInc/semmc) [35 :star:]: Stratified synthesis for learning machine code instruction semantics
 - [macaw](https://github.com/GaloisInc/macaw) [166 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [3 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
@@ -51,7 +51,7 @@ Note that these are interesting and informative, but definitely not efficient en
 
 ## Others
 
-- [taffybar](https://github.com/taffybar/taffybar) [596 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
+- [taffybar](https://github.com/taffybar/taffybar) [599 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
 - [travitch](https://github.com/travitch/travitch) [1 :star:]: The code for my Github profile page, which generates this page
 - [blog](https://github.com/travitch/blog) [3 :star:]: The code for my blog (ravit.ch)
 
