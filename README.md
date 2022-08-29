@@ -7,13 +7,13 @@ I am working on program analysis and verification at [Galois](https://galois.com
 Data structures that may be generally useful
 
 - [haggle](https://github.com/travitch/haggle) [32 :star: [:book:](https://hackage.haskell.org/package/haggle)]: An efficient graph library for Haskell
-- [persistent-vector](https://github.com/travitch/persistent-vector) [21 :star: [:book:](https://hackage.haskell.org/package/persistent-vector)]: Persistent vectors for Haskell based on array mapped tries
+- [persistent-vector](https://github.com/travitch/persistent-vector) [22 :star: [:book:](https://hackage.haskell.org/package/persistent-vector)]: Persistent vectors for Haskell based on array mapped tries
 - [robbed](https://github.com/travitch/robbed) [3 :star:]: A pure Haskell implementation of Reduced Ordered Binary Decision Diagrams (BDDs)
 
 ## Program Analysis
 
 - [build-bom](https://github.com/travitch/build-bom) [26 :star:]: Dynamically discover the commands used to create a piece of software
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [502 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [503 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [10 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: (WIP) serialization/deserialization for What4 expressions
 
