@@ -20,13 +20,13 @@ Data structures that may be generally useful
 ## Binary Analysis
 
 - [crepitans](https://github.com/travitch/crepitans) [2 :star:]: A tool for scriptable exploration of binaries
-- [dismantle](https://github.com/travitch/dismantle) [17 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
+- [dismantle](https://github.com/GaloisInc/dismantle) [17 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
 - [portable-executable](https://github.com/GaloisInc/portable-executable) [3 :star:]: Tools for working with the Windows Portable Executable (PE) file format
 - [semmc](https://github.com/GaloisInc/semmc) [35 :star:]: Stratified synthesis for learning machine code instruction semantics
 - [macaw](https://github.com/GaloisInc/macaw) [166 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [3 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
 - [renovate](https://github.com/GaloisInc/renovate) [35 :star:]: A library for binary analysis and rewriting
-- [language-sleigh](https://github.com/travitch/language-sleigh) [3 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
+- [language-sleigh](https://github.com/GaloisInc/language-sleigh) [3 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
 - [mctrace](https://github.com/GaloisInc/mctrace) [2 :star:]: An implementation of DTrace for machine code
 
 ## Debugging Tools
