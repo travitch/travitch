@@ -16,8 +16,17 @@ type DateTime = String;
 )]
 struct MyRepositoriesQuery;
 
+#[derive(GraphQLQuery)]
+#[graphql(
+    schema_path="data/schema.docs.graphql",
+    query_path="data/query.graphql",
+    response_derives = "Debug"
+)]
+struct GaloisRepositoriesQuery;
+
+
 /// Execute the github repository query in data/query.graphql
-fn query_github(github_api_token : &str) -> anyhow::Result<my_repositories_query::ResponseData> {
+fn query_my_github(github_api_token : &str) -> anyhow::Result<my_repositories_query::ResponseData> {
     let vars = my_repositories_query::Variables {
     };
     let request_body = MyRepositoriesQuery::build_query(vars);
@@ -29,6 +38,44 @@ fn query_github(github_api_token : &str) -> anyhow::Result<my_repositories_query
     let res = client.post("https://api.github.com/graphql").json(&request_body).headers(headers).send()?;
     let response_body: Response<my_repositories_query::ResponseData> = res.json()?;
     response_body.data.ok_or(anyhow::anyhow!("No data in query response"))
+}
+
+fn query_galois_github(github_api_token : &str) -> anyhow::Result<Vec<galois_repositories_query::ResponseData>> {
+    let mut orgs = Vec::new();
+    let mut current_token = None;
+
+    // Getting the list of all repositories for Galois requires using the
+    // paging-style of query, since we can only get 100 at a time.  We loop
+    // until there are no more.
+    loop {
+        let vars = galois_repositories_query::Variables {
+            token: current_token
+        };
+        let request_body = GaloisRepositoriesQuery::build_query(vars);
+        let mut headers = reqwest::header::HeaderMap::new();
+        headers.insert(reqwest::header::AUTHORIZATION, reqwest::header::HeaderValue::from_str(&format!("Bearer {}", github_api_token)).unwrap());
+        // Note that setting the user agent is *critical*, as Github rejects queries without one
+        let client = blocking::ClientBuilder::new().user_agent("graphql-rust/0.10.0").build()?;
+
+        let res = client.post("https://api.github.com/graphql").json(&request_body).headers(headers).send()?;
+        let response_body: Response<galois_repositories_query::ResponseData> = res.json()?;
+        let resp_data = response_body.data.ok_or(anyhow::anyhow!("No data in query response"))?;
+
+        let galois = &resp_data.organization.as_ref().expect("Missing organization query results");
+        let page_info = &galois.repositories.page_info;
+        let has_next = page_info.has_next_page;
+        let next_token = page_info.end_cursor.clone();
+
+        orgs.push(resp_data);
+
+        if has_next {
+            current_token = next_token;
+        } else {
+            break;
+        }
+    }
+
+    Ok(orgs)
 }
 
 struct Repository {
@@ -49,7 +96,7 @@ trait AsRepository {
     fn as_repository(&self) -> Repository;
 }
 
-impl AsRepository for my_repositories_query::MyRepositoriesQueryOrganizationRepositoriesEdgesNode {
+impl AsRepository for galois_repositories_query::GaloisRepositoriesQueryOrganizationRepositoriesEdgesNode {
     fn as_repository(&self) -> Repository{
         Repository {
             id: self.id.clone(),
@@ -113,7 +160,7 @@ fn add_json_repo_entry(data : &mut Map<String, Json>, repo_node : &Repository) {
 /// Unpack the raw response data, which has lots of internal option nodes, into
 /// a simple and flatter structure that can be processed automatically in
 /// handlebars templates
-fn make_data(raw_data : my_repositories_query::ResponseData) -> Map<String, Json> {
+fn make_data(raw_data : my_repositories_query::ResponseData, galois_raw_data : Vec<galois_repositories_query::ResponseData>) -> Map<String, Json> {
     let mut data = Map::new();
 
     // First, extract the repositories attached to the github user
@@ -124,11 +171,13 @@ fn make_data(raw_data : my_repositories_query::ResponseData) -> Map<String, Json
         add_json_repo_entry(&mut data, &repo_node.as_repository());
     }
 
-    let galois = raw_data.organization.expect("Missing organization query results");
-    let galois_repos_edges = galois.repositories.edges.expect("Missing galois repository edges");
-    for repo in galois_repos_edges.iter() {
-        let repo_node = repo.as_ref().expect("Expected repository edge").node.as_ref().expect("Expected repository node");
-        add_json_repo_entry(&mut data, &repo_node.as_repository());
+    for gdata in galois_raw_data {
+      let galois = gdata.organization.expect("Missing organization query results");
+      let galois_repos_edges = galois.repositories.edges.expect("Missing galois repository edges");
+      for repo in galois_repos_edges.iter() {
+          let repo_node = repo.as_ref().expect("Expected repository edge").node.as_ref().expect("Expected repository node");
+          add_json_repo_entry(&mut data, &repo_node.as_repository());
+      }
     }
 
     let taffybar = raw_data.repository.expect("Missing taffybar query results");
@@ -227,8 +276,9 @@ fn render_repo_hackage_helper(
 
 fn main() -> anyhow::Result<(), anyhow::Error> {
     let github_api_token = std::env::var("GITHUB_API_TOKEN").expect("Missing GITHUB_API_TOKEN env var");
-    let raw_data = query_github(&github_api_token)?;
-    let normalized_data = make_data(raw_data);
+    let my_raw_data = query_my_github(&github_api_token)?;
+    let galois_raw_data = query_galois_github(&github_api_token)?;
+    let normalized_data = make_data(my_raw_data, galois_raw_data);
     let mut handlebars = Handlebars::new();
     // FIXME: Add a version of this helper that also accepts a hackage link
     handlebars.register_helper("render_repo", Box::new(render_repo_helper));

@@ -14,10 +14,11 @@ query MyRepositoriesQuery {
     }
     name
     updatedAt
-    url    
+    url
   }
-  organization(login: "GaloisInc") {
-    repositories(isFork: false, privacy: PUBLIC, first: 100, orderBy: { field:UPDATED_AT, direction: DESC}) {
+	user(login: "travitch") {
+    name
+    repositories(isFork: false, first: 100) {
       edges {
         node {
           id
@@ -37,17 +38,23 @@ query MyRepositoriesQuery {
           url
         }
       }
-    }    
-  }
-	user(login: "travitch") {
-    name
-    repositories(isFork: false, first: 100) {
+    }
+	}
+}
+
+query GaloisRepositoriesQuery($token : String) {
+  organization(login: "GaloisInc") {
+    repositories(isFork: false, privacy: PUBLIC, first: 100, after: $token, orderBy: { field:UPDATED_AT, direction: DESC}) {
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
       edges {
         node {
           id
           createdAt
           description
-          forkCount 
+          forkCount
           stargazerCount
           languages(first: 5) {
             edges {
@@ -62,5 +69,5 @@ query MyRepositoriesQuery {
         }
       }
     }
-	}
+  }
 }
