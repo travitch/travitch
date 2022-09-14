@@ -1,4 +1,4 @@
-I am working on program analysis and verification at [Galois](https://galois.com).
+I enjoy building secure and correct systems.  I have built a number of static analysis and automated verification tools, with a recent focus on analysis of binaries.
 
 # Repositories
 
