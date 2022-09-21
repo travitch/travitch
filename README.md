@@ -32,7 +32,7 @@ Data structures that may be generally useful
 ## Debugging Tools
 
 - [ddmin](https://github.com/travitch/ddmin) [3 :star:]: An implementation of delta debugging (ddmin) in Haskell
-- [surveyor](https://github.com/GaloisInc/surveyor) [14 :star:]: A symbolic debugger for C/C++ (via LLVM), machine code, and JVM programs
+- [surveyor](https://github.com/GaloisInc/surveyor) [15 :star:]: A symbolic debugger for C/C++ (via LLVM), machine code, and JVM programs
 - [binary-walkr](https://github.com/travitch/binary-walkr) [2 :star:]: A tool for examining ELF binaries
 
 ## Solvers
