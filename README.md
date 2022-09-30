@@ -13,7 +13,7 @@ Data structures that may be generally useful
 ## Program Analysis
 
 - [build-bom](https://github.com/travitch/build-bom) [26 :star:]: Dynamically discover the commands used to create a piece of software
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [509 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [510 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [10 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: Serialization/deserialization for What4 expressions
 
