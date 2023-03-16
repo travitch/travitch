@@ -14,7 +14,7 @@ Data structures that may be generally useful
 
 - [ql-grep](https://github.com/travitch/ql-grep) [1 :star:]: A code search tool that implements CodeQL on the tree-sitter infrastructure
 - [build-bom](https://github.com/travitch/build-bom) [32 :star:]: Dynamically discover the commands used to create a piece of software
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [546 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [547 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [9 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: Serialization/deserialization for What4 expressions
 
@@ -24,7 +24,7 @@ Data structures that may be generally useful
 - [dismantle](https://github.com/GaloisInc/dismantle) [18 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
 - [portable-executable](https://github.com/GaloisInc/portable-executable) [3 :star:]: Tools for working with the Windows Portable Executable (PE) file format
 - [semmc](https://github.com/GaloisInc/semmc) [35 :star:]: Stratified synthesis for learning machine code instruction semantics
-- [macaw](https://github.com/GaloisInc/macaw) [170 :star:]: Open source binary analysis tools.
+- [macaw](https://github.com/GaloisInc/macaw) [171 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [4 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
 - [renovate](https://github.com/GaloisInc/renovate) [36 :star:]: A library for binary analysis and rewriting
 - [language-sleigh](https://github.com/GaloisInc/language-sleigh) [3 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
@@ -41,7 +41,7 @@ Data structures that may be generally useful
 Note that these are interesting and informative, but definitely not efficient enough to use in production
 
 - [satisfaction](https://github.com/travitch/satisfaction) [2 :star:]: A DPLL SAT solver written in Haskell
-- [datalog](https://github.com/travitch/datalog) [95 :star:]: A pure Haskell implementation of Datalog
+- [datalog](https://github.com/travitch/datalog) [96 :star:]: A pure Haskell implementation of Datalog
 - [ifscs](https://github.com/travitch/ifscs) [4 :star: [:book:](https://hackage.haskell.org/package/ifscs)]: An inductive form set constraint solver in Haskell
 - [satir](https://github.com/travitch/satir) [1 :star:]: An implementation of a SAT solver in Rust
 
