@@ -21,10 +21,10 @@ Data structures that may be generally useful
 ## Binary Analysis
 
 - [crepitans](https://github.com/travitch/crepitans) [2 :star:]: A tool for scriptable exploration of binaries
-- [dismantle](https://github.com/GaloisInc/dismantle) [18 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
+- [dismantle](https://github.com/GaloisInc/dismantle) [19 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
 - [portable-executable](https://github.com/GaloisInc/portable-executable) [3 :star:]: Tools for working with the Windows Portable Executable (PE) file format
 - [semmc](https://github.com/GaloisInc/semmc) [35 :star:]: Stratified synthesis for learning machine code instruction semantics
-- [macaw](https://github.com/GaloisInc/macaw) [176 :star:]: Open source binary analysis tools.
+- [macaw](https://github.com/GaloisInc/macaw) [177 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [5 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
 - [renovate](https://github.com/GaloisInc/renovate) [37 :star:]: A library for binary analysis and rewriting
 - [language-sleigh](https://github.com/GaloisInc/language-sleigh) [4 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
@@ -33,7 +33,7 @@ Data structures that may be generally useful
 ## Debugging Tools
 
 - [ddmin](https://github.com/travitch/ddmin) [3 :star:]: An implementation of delta debugging (ddmin) in Haskell
-- [surveyor](https://github.com/GaloisInc/surveyor) [15 :star:]: A symbolic debugger for C/C++ (via LLVM), machine code, and JVM programs
+- [surveyor](https://github.com/GaloisInc/surveyor) [16 :star:]: A symbolic debugger for C/C++ (via LLVM), machine code, and JVM programs
 - [binary-walkr](https://github.com/travitch/binary-walkr) [2 :star:]: A tool for examining ELF binaries
 
 ## Solvers
