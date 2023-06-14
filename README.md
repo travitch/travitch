@@ -26,7 +26,7 @@ Data structures that may be generally useful
 - [semmc](https://github.com/GaloisInc/semmc) [35 :star:]: Stratified synthesis for learning machine code instruction semantics
 - [macaw](https://github.com/GaloisInc/macaw) [177 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [5 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
-- [renovate](https://github.com/GaloisInc/renovate) [37 :star:]: A library for binary analysis and rewriting
+- [renovate](https://github.com/GaloisInc/renovate) [38 :star:]: A library for binary analysis and rewriting
 - [language-sleigh](https://github.com/GaloisInc/language-sleigh) [4 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
 - [mctrace](https://github.com/GaloisInc/mctrace) [5 :star:]: An implementation of DTrace for machine code
 
