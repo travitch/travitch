@@ -14,7 +14,7 @@ Data structures that may be generally useful
 
 - [ql-grep](https://github.com/travitch/ql-grep) [2 :star:]: A code search tool that implements CodeQL on the tree-sitter infrastructure
 - [build-bom](https://github.com/travitch/build-bom) [34 :star:]: Dynamically discover the commands used to create a piece of software
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [573 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [574 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [10 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: Serialization/deserialization for What4 expressions
 
@@ -41,7 +41,7 @@ Data structures that may be generally useful
 Note that these are interesting and informative, but definitely not efficient enough to use in production
 
 - [satisfaction](https://github.com/travitch/satisfaction) [2 :star:]: A DPLL SAT solver written in Haskell
-- [datalog](https://github.com/travitch/datalog) [97 :star:]: A pure Haskell implementation of Datalog
+- [datalog](https://github.com/travitch/datalog) [98 :star:]: A pure Haskell implementation of Datalog
 - [ifscs](https://github.com/travitch/ifscs) [4 :star: [:book:](https://hackage.haskell.org/package/ifscs)]: An inductive form set constraint solver in Haskell
 - [satir](https://github.com/travitch/satir) [1 :star:]: An implementation of a SAT solver in Rust
 
