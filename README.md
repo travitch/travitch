@@ -7,7 +7,7 @@ I enjoy building secure and correct systems.  I have built a number of static an
 Data structures that may be generally useful
 
 - [haggle](https://github.com/travitch/haggle) [36 :star: [:book:](https://hackage.haskell.org/package/haggle)]: An efficient graph library for Haskell
-- [persistent-vector](https://github.com/travitch/persistent-vector) [23 :star: [:book:](https://hackage.haskell.org/package/persistent-vector)]: Persistent vectors for Haskell based on array mapped tries
+- [persistent-vector](https://github.com/travitch/persistent-vector) [25 :star: [:book:](https://hackage.haskell.org/package/persistent-vector)]: Persistent vectors for Haskell based on array mapped tries
 - [robbed](https://github.com/travitch/robbed) [3 :star:]: A pure Haskell implementation of Reduced Ordered Binary Decision Diagrams (BDDs)
 
 ## Program Analysis
@@ -24,7 +24,7 @@ Data structures that may be generally useful
 - [dismantle](https://github.com/GaloisInc/dismantle) [19 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
 - [portable-executable](https://github.com/GaloisInc/portable-executable) [3 :star:]: Tools for working with the Windows Portable Executable (PE) file format
 - [semmc](https://github.com/GaloisInc/semmc) [35 :star:]: Stratified synthesis for learning machine code instruction semantics
-- [macaw](https://github.com/GaloisInc/macaw) [180 :star:]: Open source binary analysis tools.
+- [macaw](https://github.com/GaloisInc/macaw) [181 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [5 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
 - [renovate](https://github.com/GaloisInc/renovate) [38 :star:]: A library for binary analysis and rewriting
 - [language-sleigh](https://github.com/GaloisInc/language-sleigh) [4 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
