@@ -7,7 +7,7 @@ I enjoy building secure and correct systems.  I have built a number of static an
 Data structures that may be generally useful
 
 - [haggle](https://github.com/travitch/haggle) [36 :star: [:book:](https://hackage.haskell.org/package/haggle)]: An efficient graph library for Haskell
-- [persistent-vector](https://github.com/travitch/persistent-vector) [25 :star: [:book:](https://hackage.haskell.org/package/persistent-vector)]: Persistent vectors for Haskell based on array mapped tries
+- [persistent-vector](https://github.com/travitch/persistent-vector) [27 :star: [:book:](https://hackage.haskell.org/package/persistent-vector)]: Persistent vectors for Haskell based on array mapped tries
 - [robbed](https://github.com/travitch/robbed) [3 :star:]: A pure Haskell implementation of Reduced Ordered Binary Decision Diagrams (BDDs)
 
 ## Program Analysis
