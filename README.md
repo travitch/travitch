@@ -14,7 +14,7 @@ Data structures that may be generally useful
 
 - [ql-grep](https://github.com/travitch/ql-grep) [2 :star:]: A code search tool that implements CodeQL on the tree-sitter infrastructure
 - [build-bom](https://github.com/travitch/build-bom) [37 :star:]: Dynamically discover the commands used to create a piece of software
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [590 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [591 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [10 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: Serialization/deserialization for What4 expressions
 
@@ -33,7 +33,7 @@ Data structures that may be generally useful
 ## Debugging Tools
 
 - [ddmin](https://github.com/travitch/ddmin) [3 :star:]: An implementation of delta debugging (ddmin) in Haskell
-- [surveyor](https://github.com/GaloisInc/surveyor) [16 :star:]: A symbolic debugger for C/C++ (via LLVM), machine code, and JVM programs
+- [surveyor](https://github.com/GaloisInc/surveyor) [17 :star:]: A symbolic debugger for C/C++ (via LLVM), machine code, and JVM programs
 - [binary-walkr](https://github.com/travitch/binary-walkr) [2 :star:]: A tool for examining ELF binaries
 
 ## Solvers
