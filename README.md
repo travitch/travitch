@@ -52,7 +52,7 @@ Note that these are interesting and informative, but definitely not efficient en
 
 ## Others
 
-- [taffybar](https://github.com/taffybar/taffybar) [667 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
+- [taffybar](https://github.com/taffybar/taffybar) [668 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
 - [travitch](https://github.com/travitch/travitch) [1 :star:]: The code for my Github profile page, which generates this page
 - [blog](https://github.com/travitch/blog) [3 :star:]: The code for my blog (ravit.ch)
 - [dotfiles](https://github.com/travitch/dotfiles) [0 :star:]: A collection of dotfiles managed by Chezmoi
