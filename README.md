@@ -13,7 +13,7 @@ Data structures that may be generally useful
 ## Program Analysis
 
 - [ql-grep](https://github.com/travitch/ql-grep) [2 :star:]: A code search tool that implements CodeQL on the tree-sitter infrastructure
-- [build-bom](https://github.com/travitch/build-bom) [40 :star:]: Dynamically discover the commands used to create a piece of software
+- [build-bom](https://github.com/travitch/build-bom) [41 :star:]: Dynamically discover the commands used to create a piece of software
 - [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [601 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [11 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: Serialization/deserialization for What4 expressions
@@ -21,7 +21,7 @@ Data structures that may be generally useful
 ## Binary Analysis
 
 - [crepitans](https://github.com/travitch/crepitans) [2 :star:]: A tool for scriptable exploration of binaries
-- [dismantle](https://github.com/GaloisInc/dismantle) [20 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
+- [dismantle](https://github.com/GaloisInc/dismantle) [21 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
 - [portable-executable](https://github.com/GaloisInc/portable-executable) [3 :star:]: Tools for working with the Windows Portable Executable (PE) file format
 - [semmc](https://github.com/GaloisInc/semmc) [34 :star:]: Stratified synthesis for learning machine code instruction semantics
 - [macaw](https://github.com/GaloisInc/macaw) [182 :star:]: Open source binary analysis tools.
@@ -52,7 +52,7 @@ Note that these are interesting and informative, but definitely not efficient en
 
 ## Others
 
-- [taffybar](https://github.com/taffybar/taffybar) [669 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
+- [taffybar](https://github.com/taffybar/taffybar) [671 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
 - [travitch](https://github.com/travitch/travitch) [1 :star:]: The code for my Github profile page, which generates this page
 - [blog](https://github.com/travitch/blog) [3 :star:]: The code for my blog (ravit.ch)
 - [dotfiles](https://github.com/travitch/dotfiles) [0 :star:]: A collection of dotfiles managed by Chezmoi
