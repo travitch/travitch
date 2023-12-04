@@ -14,7 +14,7 @@ Data structures that may be generally useful
 
 - [ql-grep](https://github.com/travitch/ql-grep) [2 :star:]: A code search tool that implements CodeQL on the tree-sitter infrastructure
 - [build-bom](https://github.com/travitch/build-bom) [42 :star:]: Dynamically discover the commands used to create a piece of software
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [610 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [611 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [11 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: Serialization/deserialization for What4 expressions
 
@@ -24,7 +24,7 @@ Data structures that may be generally useful
 - [dismantle](https://github.com/GaloisInc/dismantle) [21 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
 - [portable-executable](https://github.com/GaloisInc/portable-executable) [3 :star:]: Tools for working with the Windows Portable Executable (PE) file format
 - [semmc](https://github.com/GaloisInc/semmc) [34 :star:]: Stratified synthesis for learning machine code instruction semantics
-- [macaw](https://github.com/GaloisInc/macaw) [183 :star:]: Open source binary analysis tools.
+- [macaw](https://github.com/GaloisInc/macaw) [184 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [5 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
 - [renovate](https://github.com/GaloisInc/renovate) [42 :star:]: A library for binary analysis and rewriting
 - [language-sleigh](https://github.com/GaloisInc/language-sleigh) [4 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
