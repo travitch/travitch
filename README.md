@@ -21,7 +21,7 @@ Data structures that may be generally useful
 ## Binary Analysis
 
 - [crepitans](https://github.com/travitch/crepitans) [2 :star:]: A tool for scriptable exploration of binaries
-- [dismantle](https://github.com/GaloisInc/dismantle) [23 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
+- [dismantle](https://github.com/GaloisInc/dismantle) [24 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
 - [portable-executable](https://github.com/GaloisInc/portable-executable) [3 :star:]: Tools for working with the Windows Portable Executable (PE) file format
 - [semmc](https://github.com/GaloisInc/semmc) [34 :star:]: Stratified synthesis for learning machine code instruction semantics
 - [macaw](https://github.com/GaloisInc/macaw) [187 :star:]: Open source binary analysis tools.
