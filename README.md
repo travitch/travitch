@@ -6,7 +6,7 @@ I enjoy building secure and correct systems.  I have built a number of static an
 
 Data structures that may be generally useful
 
-- [haggle](https://github.com/travitch/haggle) [37 :star: [:book:](https://hackage.haskell.org/package/haggle)]: An efficient graph library for Haskell
+- [haggle](https://github.com/travitch/haggle) [38 :star: [:book:](https://hackage.haskell.org/package/haggle)]: An efficient graph library for Haskell
 - [persistent-vector](https://github.com/travitch/persistent-vector) [27 :star: [:book:](https://hackage.haskell.org/package/persistent-vector)]: Persistent vectors for Haskell based on array mapped tries
 - [robbed](https://github.com/travitch/robbed) [4 :star:]: A pure Haskell implementation of Reduced Ordered Binary Decision Diagrams (BDDs)
 
@@ -14,7 +14,7 @@ Data structures that may be generally useful
 
 - [ql-grep](https://github.com/travitch/ql-grep) [3 :star:]: A code search tool that implements CodeQL on the tree-sitter infrastructure
 - [build-bom](https://github.com/travitch/build-bom) [45 :star:]: Dynamically discover the commands used to create a piece of software
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [672 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [673 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [12 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: Serialization/deserialization for What4 expressions
 
