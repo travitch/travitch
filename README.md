@@ -24,7 +24,7 @@ Data structures that may be generally useful
 - [dismantle](https://github.com/GaloisInc/dismantle) [25 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
 - [portable-executable](https://github.com/GaloisInc/portable-executable) [2 :star:]: Tools for working with the Windows Portable Executable (PE) file format
 - [semmc](https://github.com/GaloisInc/semmc) [37 :star:]: Stratified synthesis for learning machine code instruction semantics
-- [macaw](https://github.com/GaloisInc/macaw) [228 :star:]: Open source binary analysis tools.
+- [macaw](https://github.com/GaloisInc/macaw) [227 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [5 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
 - [renovate](https://github.com/GaloisInc/renovate) [47 :star:]: A library for binary analysis and rewriting
 - [language-sleigh](https://github.com/GaloisInc/language-sleigh) [5 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
@@ -52,7 +52,7 @@ Note that these are interesting and informative, but definitely not efficient en
 
 ## Others
 
-- [taffybar](https://github.com/taffybar/taffybar) [707 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
+- [taffybar](https://github.com/taffybar/taffybar) [708 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
 - [travitch](https://github.com/travitch/travitch) [1 :star:]: The code for my Github profile page, which generates this page
 - [blog](https://github.com/travitch/blog) [3 :star:]: The code for my blog (ravit.ch)
 - [dotfiles](https://github.com/travitch/dotfiles) [0 :star:]: A collection of dotfiles managed by Chezmoi
