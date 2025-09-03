@@ -24,9 +24,9 @@ Data structures that may be generally useful
 - [dismantle](https://github.com/GaloisInc/dismantle) [25 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
 - [portable-executable](https://github.com/GaloisInc/portable-executable) [2 :star:]: Tools for working with the Windows Portable Executable (PE) file format
 - [semmc](https://github.com/GaloisInc/semmc) [37 :star:]: Stratified synthesis for learning machine code instruction semantics
-- [macaw](https://github.com/GaloisInc/macaw) [230 :star:]: Open source binary analysis tools.
+- [macaw](https://github.com/GaloisInc/macaw) [231 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [5 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
-- [renovate](https://github.com/GaloisInc/renovate) [47 :star:]: A library for binary analysis and rewriting
+- [renovate](https://github.com/GaloisInc/renovate) [48 :star:]: A library for binary analysis and rewriting
 - [language-sleigh](https://github.com/GaloisInc/language-sleigh) [5 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
 - [mctrace](https://github.com/GaloisInc/mctrace) [5 :star:]: An implementation of DTrace for machine code
 
@@ -41,7 +41,7 @@ Data structures that may be generally useful
 Note that these are interesting and informative, but definitely not efficient enough to use in production
 
 - [satisfaction](https://github.com/travitch/satisfaction) [2 :star:]: A DPLL SAT solver written in Haskell
-- [datalog](https://github.com/travitch/datalog) [105 :star:]: A pure Haskell implementation of Datalog
+- [datalog](https://github.com/travitch/datalog) [106 :star:]: A pure Haskell implementation of Datalog
 - [ifscs](https://github.com/travitch/ifscs) [4 :star: [:book:](https://hackage.haskell.org/package/ifscs)]: An inductive form set constraint solver in Haskell
 - [satir](https://github.com/travitch/satir) [1 :star:]: An implementation of a SAT solver in Rust
 
