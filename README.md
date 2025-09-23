@@ -41,7 +41,7 @@ Data structures that may be generally useful
 Note that these are interesting and informative, but definitely not efficient enough to use in production
 
 - [satisfaction](https://github.com/travitch/satisfaction) [2 :star:]: A DPLL SAT solver written in Haskell
-- [datalog](https://github.com/travitch/datalog) [106 :star:]: A pure Haskell implementation of Datalog
+- [datalog](https://github.com/travitch/datalog) [105 :star:]: A pure Haskell implementation of Datalog
 - [ifscs](https://github.com/travitch/ifscs) [4 :star: [:book:](https://hackage.haskell.org/package/ifscs)]: An inductive form set constraint solver in Haskell
 - [satir](https://github.com/travitch/satir) [1 :star:]: An implementation of a SAT solver in Rust
 
