@@ -12,10 +12,10 @@ Data structures that may be generally useful
 
 ## Program Analysis
 
-- [ql-grep](https://github.com/travitch/ql-grep) [8 :star:]: A code search tool that implements CodeQL on the tree-sitter infrastructure
-- [build-bom](https://github.com/travitch/build-bom) [55 :star:]: Dynamically discover the commands used to create a piece of software
+- [ql-grep](https://github.com/travitch/ql-grep) [9 :star:]: A code search tool that implements CodeQL on the tree-sitter infrastructure
+- [build-bom](https://github.com/travitch/build-bom) [56 :star:]: Dynamically discover the commands used to create a piece of software
 - [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [717 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
-- [itanium-abi](https://github.com/travitch/itanium-abi) [12 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
+- [itanium-abi](https://github.com/travitch/itanium-abi) [13 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: Serialization/deserialization for What4 expressions
 
 ## Binary Analysis
@@ -34,7 +34,7 @@ Data structures that may be generally useful
 
 - [ddmin](https://github.com/travitch/ddmin) [3 :star:]: An implementation of delta debugging (ddmin) in Haskell
 - [surveyor](https://github.com/GaloisInc/surveyor) [19 :star:]: A symbolic debugger for C/C++ (via LLVM), machine code, and JVM programs
-- [binary-walkr](https://github.com/travitch/binary-walkr) [2 :star:]: A tool for examining ELF binaries
+- [binary-walkr](https://github.com/travitch/binary-walkr) [3 :star:]: A tool for examining ELF binaries
 
 ## Solvers
 
