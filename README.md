@@ -6,8 +6,8 @@ I enjoy building secure and correct systems.  I have built a number of static an
 
 Data structures that may be generally useful
 
-- [haggle](https://github.com/travitch/haggle) [38 :star: [:book:](https://hackage.haskell.org/package/haggle)]: An efficient graph library for Haskell
-- [persistent-vector](https://github.com/travitch/persistent-vector) [27 :star: [:book:](https://hackage.haskell.org/package/persistent-vector)]: Persistent vectors for Haskell based on array mapped tries
+- [haggle](https://github.com/travitch/haggle) [39 :star: [:book:](https://hackage.haskell.org/package/haggle)]: An efficient graph library for Haskell
+- [persistent-vector](https://github.com/travitch/persistent-vector) [28 :star: [:book:](https://hackage.haskell.org/package/persistent-vector)]: Persistent vectors for Haskell based on array mapped tries
 - [robbed](https://github.com/travitch/robbed) [4 :star:]: A pure Haskell implementation of Reduced Ordered Binary Decision Diagrams (BDDs)
 
 ## Program Analysis
@@ -20,21 +20,21 @@ Data structures that may be generally useful
 
 ## Binary Analysis
 
-- [crepitans](https://github.com/travitch/crepitans) [2 :star:]: A tool for scriptable exploration of binaries
-- [dismantle](https://github.com/GaloisInc/dismantle) [25 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
-- [portable-executable](https://github.com/GaloisInc/portable-executable) [2 :star:]: Tools for working with the Windows Portable Executable (PE) file format
-- [semmc](https://github.com/GaloisInc/semmc) [37 :star:]: Stratified synthesis for learning machine code instruction semantics
-- [macaw](https://github.com/GaloisInc/macaw) [230 :star:]: Open source binary analysis tools.
+- [crepitans](https://github.com/travitch/crepitans) [3 :star:]: A tool for scriptable exploration of binaries
+- [dismantle](https://github.com/GaloisInc/dismantle) [26 :star:]: A library of assemblers and disassemblers derived from LLVM TableGen data
+- [portable-executable](https://github.com/GaloisInc/portable-executable) [3 :star:]: Tools for working with the Windows Portable Executable (PE) file format
+- [semmc](https://github.com/GaloisInc/semmc) [38 :star:]: Stratified synthesis for learning machine code instruction semantics
+- [macaw](https://github.com/GaloisInc/macaw) [231 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [5 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
-- [renovate](https://github.com/GaloisInc/renovate) [48 :star:]: A library for binary analysis and rewriting
-- [language-sleigh](https://github.com/GaloisInc/language-sleigh) [6 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
-- [mctrace](https://github.com/GaloisInc/mctrace) [5 :star:]: An implementation of DTrace for machine code
+- [renovate](https://github.com/GaloisInc/renovate) [49 :star:]: A library for binary analysis and rewriting
+- [language-sleigh](https://github.com/GaloisInc/language-sleigh) [7 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
+- [mctrace](https://github.com/GaloisInc/mctrace) [6 :star:]: An implementation of DTrace for machine code
 
 ## Debugging Tools
 
-- [ddmin](https://github.com/travitch/ddmin) [3 :star:]: An implementation of delta debugging (ddmin) in Haskell
-- [surveyor](https://github.com/GaloisInc/surveyor) [19 :star:]: A symbolic debugger for C/C++ (via LLVM), machine code, and JVM programs
-- [binary-walkr](https://github.com/travitch/binary-walkr) [3 :star:]: A tool for examining ELF binaries
+- [ddmin](https://github.com/travitch/ddmin) [4 :star:]: An implementation of delta debugging (ddmin) in Haskell
+- [surveyor](https://github.com/GaloisInc/surveyor) [20 :star:]: A symbolic debugger for C/C++ (via LLVM), machine code, and JVM programs
+- [binary-walkr](https://github.com/travitch/binary-walkr) [4 :star:]: A tool for examining ELF binaries
 
 ## Solvers
 
