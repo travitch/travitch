@@ -14,7 +14,7 @@ Data structures that may be generally useful
 
 - [ql-grep](https://github.com/travitch/ql-grep) [9 :star:]: A code search tool that implements CodeQL on the tree-sitter infrastructure
 - [build-bom](https://github.com/travitch/build-bom) [58 :star:]: Dynamically discover the commands used to create a piece of software
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [729 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [728 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [13 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
 - [what4-serialize](https://github.com/GaloisInc/what4-serialize) [0 :star:]: Serialization/deserialization for What4 expressions
 
@@ -47,13 +47,13 @@ Note that these are interesting and informative, but definitely not efficient en
 
 ## Emacs Packages
 
-- [lgtm.el](https://github.com/travitch/lgtm.el) [0 :star:]: A code review UI for emacs that supports multi-repository changesets
+- [lgtm.el](https://github.com/travitch/lgtm.el) [1 :star:]: A code review UI for emacs that supports multi-repository changesets
 - [haskell-pragma.el](https://github.com/travitch/haskell-pragma.el) [3 :star:]: An emacs hydra to enable Haskell language extensions efficiently
 - [haskell-interactive-import.el](https://github.com/travitch/haskell-interactive-import.el) [0 :star:]: A Haskell function and minor mode for interactively adding imports to modules
 
 ## Others
 
-- [taffybar](https://github.com/taffybar/taffybar) [716 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
+- [taffybar](https://github.com/taffybar/taffybar) [715 :star: [:book:](https://hackage.haskell.org/package/taffybar)]: A gtk based status bar for tiling window managers such as XMonad; now maintained by Ivan Malison
 - [travitch](https://github.com/travitch/travitch) [1 :star:]: The code for my Github profile page, which generates this page
 - [blog](https://github.com/travitch/blog) [3 :star:]: The code for my blog (ravit.ch)
 - [dotfiles](https://github.com/travitch/dotfiles) [0 :star:]: A collection of dotfiles managed by Chezmoi
