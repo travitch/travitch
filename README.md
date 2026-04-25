@@ -12,7 +12,7 @@ Data structures that may be generally useful
 
 ## Program Analysis
 
-- [ql-grep](https://github.com/travitch/ql-grep) [12 :star:]: A code search tool that implements CodeQL on the tree-sitter infrastructure
+- [ql-grep](https://github.com/travitch/ql-grep) [13 :star:]: A code search tool that implements CodeQL on the tree-sitter infrastructure
 - [build-bom](https://github.com/travitch/build-bom) [58 :star:]: Dynamically discover the commands used to create a piece of software
 - [whole-program-llvm](https://github.com/travitch/whole-program-llvm) [735 :star:]: A wrapper script to build whole-program LLVM bitcode files; note that I consider this to be obsoleted by `build-bom`, which takes a more robust approach to the same problem
 - [itanium-abi](https://github.com/travitch/itanium-abi) [13 :star: [:book:](https://hackage.haskell.org/package/itanium-abi)]: An implementation of C++ name mangling for the Itanium ABI
@@ -27,7 +27,7 @@ Data structures that may be generally useful
 - [macaw](https://github.com/GaloisInc/macaw) [250 :star:]: Open source binary analysis tools.
 - [macaw-loader](https://github.com/GaloisInc/macaw-loader) [5 :star:]: Uniform interface to load a binary executable and get Macaw Memory and a list of entry points.
 - [renovate](https://github.com/GaloisInc/renovate) [50 :star:]: A library for binary analysis and rewriting
-- [language-sleigh](https://github.com/GaloisInc/language-sleigh) [7 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
+- [language-sleigh](https://github.com/GaloisInc/language-sleigh) [8 :star:]: A parser for the Sleigh language, which is used to represent ISA semantics in Ghidra
 - [mctrace](https://github.com/GaloisInc/mctrace) [6 :star:]: An implementation of DTrace for machine code
 
 ## Debugging Tools
