@@ -50,6 +50,7 @@ Note that these are interesting and informative, but definitely not efficient en
 - [lgtm.el](https://github.com/travitch/lgtm.el) [1 :star:]: A code review UI for emacs that supports multi-repository changesets
 - [haskell-pragma.el](https://github.com/travitch/haskell-pragma.el) [3 :star:]: An emacs hydra to enable Haskell language extensions efficiently
 - [haskell-interactive-import.el](https://github.com/travitch/haskell-interactive-import.el) [0 :star:]: A Haskell function and minor mode for interactively adding imports to modules
+- [pipemacs](https://github.com/travitch/pipemacs) [0 :star:]: Pipe data from standard input to emacs
 
 ## Others
 
